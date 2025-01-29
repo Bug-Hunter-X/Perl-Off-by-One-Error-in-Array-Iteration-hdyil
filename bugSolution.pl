@@ -1,0 +1,1 @@
+my @array = (1, 2, 3); foreach my $value (@array) { print "Value: $value\n"; } #Alternatively, using a for loop with scalar context: for (my $i = 0; $i < @array; $i++) { print "Value at index $i: $array[$i]\n"; } 
